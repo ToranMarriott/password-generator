@@ -11,10 +11,6 @@ const symbols = [
     "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"
 ];
 
-let allCharacters = letters.concat(numbers, symbols);
-let addNumbers = letters.concat(numbers);
-let addSymbols = letters.concat(symbols);
-
 function generate() {
     let password1 = document.getElementById("password-1");
     let password2 = document.getElementById("password-2");
@@ -41,7 +37,7 @@ function makePassword() {
         let randomNumber = Math.floor( Math.random() * characters.length);
         let randomCharacter = characters[randomNumber];
         password += randomCharacter;
-    }
+    };
     return password;
 }
 
