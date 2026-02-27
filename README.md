@@ -28,6 +28,6 @@ https://secure-passwords-generator.netlify.app/
 
 ## Next Improvements
 - Add password strength hints (length + variety indicators)
-- Add “exclude similar characters” option (e.g., O/0, l/1)
 - Improve accessibility (labels, keyboard flow, focus states)
 - Add basic tests for the generation logic
+- Improve responsive layout - mobile 
